@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+header{
+    background-image: url(../images/header_image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-brand{
+
+}
+.hg{
+    min-height: 69vh;
+    align-items: center;
+}
+
+.phone{
+
+position: absolute;
+
+bottom: 0;
+
+left: 53%;
+}
+.phone img{
+    height: 600px;
+}
+
+
+.navbar-light .navbar-nav .nav-item{
+    padding: 20px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 17px;
+    position: relative;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fff;
+
+}
+.navbar-light .navbar-nav .nav-link::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    background: #008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0;
+    right: 0;
+    bottom: -10px;
+    background:#008ed6;
+    transition: .4s all ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link:hover::before{
+    width: 45%;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 45%;
+
+}
+.header-content{
+
+}
+.header-content h5{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+font-size: 16px;
+    
+letter-spacing: 1.5px;
+    
+margin-bottom: 15px;
+}
+.header-content h1{
+    
+color: #fff;
+    
+font-size: 60px;
+    
+margin-bottom: 20px;
+}
+.header-content p{
+    
+color: #999999;
+    
+font-size: 18px;
+    
+margin-bottom: 50px;
+}
+.btn_download{
+
+color: #fff;
+font-size: 14px;
+
+background: #008ed6;
+
+text-transform: uppercase;
+
+padding: 0;
+
+padding: 12px 18px;
+
+letter-spacing: 1px;
+}
+.btn_feature{
+    color: #fff;
+    font-size: 14px;
+    background: #008ed6;
+    text-transform: uppercase;
+    padding: 0;
+    padding: 13px 18px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.btn_download:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999999;
+
+}
+.btn_feature:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999999;
+
+}
+.feature-section{
+    padding: 50px;
+
+}
+.heading{
+
+padding-bottom: 100px;
+}
+.heading h1{
+    color: #000;
+    
+}
+.heading h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    
+}
+.heading span{
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+}
+.heading span::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+   
+
+}
+.heading span::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+
+}
+.feature-section:hover .heading span::before{
+    width: 47%;
+    background: #008ed6;
+
+}
+.feature-section:hover .heading span::after{
+    width: 47%;
+    background: #008ed6;
+
+}
+.features-content{
+
+text-align: center;
+}
+.features-content h5{
+    color: #726c6c;
+}
+.features-content p{
+    color: #999;
+    font-size: 17px;
+}
+.icon{
+color: #999;
+    
+height: 80px;
+    
+width: 80px;
+    
+border: 1px solid;
+    
+text-align: center;
+    
+line-height: 80px;
+    
+border-radius: 50px;
+    
+font-size: 25px;
+    
+margin: auto;
+    
+margin-bottom: 30px;
+}
+
+.details-heading h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    
+}
+.details-heading h1{
+    margin-bottom: 20px;
+    
+}
+
+.details-heading p{
+    margin-bottom: 20px;
+    
+}
+.details-heading ul{
+    list-style: none;
+    
+}
+.details-heading i{
+    
+margin-right: 17px;
+align-items: center;
+color: #008ed6;
+margin-bottom: 10px;
+}
+.details-heading{
+    margin-top: 100px;}
+
+.details-heading span {
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.details-heading span::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+   
+
+}
+.details-heading span::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0%;
+    transition: .4s all ease-in-out;
+
+}
+.details-section:hover .details-heading span::before{
+    width: 47%;
+    background: #008ed6;
+
+}
+.details-section:hover .details-heading span::after{
+    width: 47%;
+    background: #008ed6;
+
+}
+.details-customise h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.details-customise h1{
+    margin-bottom: 20px;
+
+}
+.details-customise span{
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.details-customise p{
+    color: #999;
+    font-size: 17px;
+}
+
+
+.details-customise span::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+ 
+}
+.details-customise span::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+
+}
+.customise-section :hover .details-customise span::before{
+    width: 47%;
+    background: #008ed6;
+
+}
+.customise-section :hover .details-customise span::after{
+    width: 47%;
+    background: #008ed6;
+
+}
+.pricing-section{
+    background-image: url(../images/pricing-&-plans.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 80vh;
+
+  
+}
+.pricing_plans h5{
+    color: #008ed6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.pricing_plans h1{
+    margin-bottom: 25px;
+    color: #fff;
+    
+}
+
+.pricing_plans span{
+    position: relative;
+    display: inline-block;
+    height: 4px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+.pricing_plans span::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+ 
+}
+.pricing_plans span::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0px;
+    transition: .4s all ease-in-out;
+
+}
+.pricing-section :hover .pricing_plans span::before{
+    width: 47%;
+    background: #008ed6;
+
+}
+.pricing-section :hover .pricing_plans span::after{
+    width: 47%;
+    background: #008ed6;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
